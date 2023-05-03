@@ -47,11 +47,11 @@ function App() {
       {/* <Loader /> */}
       <Canvas camera={{ position: [0, 0, 0.1] }}>
 
-        {/* <Suspense fallback={<Loader />}> */}
+         <Suspense fallback={<Loader />}> 
 
           <Experience  handleBtnVisibility={handleBtnVisibility} cubemapIndex={cubemapIndex}/>
 
-        {/* </Suspense> */}
+         </Suspense> 
       </Canvas>
 
 
