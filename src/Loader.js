@@ -8,7 +8,6 @@ export default function Loader() {
                 <div></div>
                 <div></div>
             </div>
-            <h2>Loading Assets...</h2>
         </div>
 
     )
